@@ -1,0 +1,47 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputContainer{
+  text-align: center;
+}
+.chartContainer{
+  width: 90%;
+  margin: 0 auto;
+}
+.chartTitle{
+  text-align: center;
+  margin: 10px 0 0;
+  color: #00698b;
+}
+.customDyagrph{
+  width: 80%; 
+  height: 350px; 
+  position: relative;
+  margin: 80px auto;
+}
+.dygraph-title {
+  font-size: 18px !important;
+  color: darkred !important;
+  font-weight: bold;
+  position: absolute !important;
+}
+
+.dygraph-axis-label {
+  font-size: 14px !important;
+  color: rgb(0, 0, 139) !important;
+}
+
+.dygraph-legend {
+  position: absolute !important;
+  width: 100%;
+  text-align: center;
+  top: -40px !important;
+}
+
+.dygraph-label-rotate-right{
+  left: -100px !important;
+}
+
+.dygraph-label.dygraph-xlabel{
+  text-align: center;
+}
